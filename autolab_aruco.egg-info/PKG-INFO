@@ -6,8 +6,8 @@ Home-page: https://github.com/BerkeleyAutomation/aruco_camera_calibration
 Author: Kaushik Shivakumar
 Author-email: kaushiks@berkeley.edu
 License: MIT
-Platform: UNKNOWN
 License-File: LICENSE
-
-UNKNOWN
-
+Requires-Dist: opencv-contrib-python==4.6.0.66
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: autolab_core
